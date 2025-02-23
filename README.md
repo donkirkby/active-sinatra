@@ -32,7 +32,7 @@ To run the app in a console so you can inspect records or create new ones:
     > Blog.find_by_name("Jimmy's Jottings").tagline
     # => SQL log: SELECT "blogs".* FROM "blogs" WHERE "blogs"."name" = 'Jimmy''s Jottings' LIMIT 1
     # => "Stuff Jimmy says" 
-    > Blog.create(:name => "Rob Rants")
+    > Blog.create!(:name => "Rob Rants")
     # => SQL log: begin transaction
     # => SQL log: INSERT INTO "blogs" ("name") VALUES (?)  [["name", "Rob Rants"]]
     # => SQL log: commit transaction

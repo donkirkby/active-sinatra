@@ -1,0 +1,7 @@
+FREEPDB1 =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (COMMUNITY = tcp.world)(PROTOCOL = TCP)(Host = db)(Port = 1521))
+    )
+    (CONNECT_DATA = (SERVICE_NAME = FREEPDB1))
+  )

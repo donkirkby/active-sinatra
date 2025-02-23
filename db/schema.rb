@@ -12,13 +12,13 @@
 
 ActiveRecord::Schema[7.1].define(version: 2016_01_26_221132) do
   create_table "blogs", force: :cascade do |t|
-    t.string "name"
-    t.text "tagline"
+    t.string "name", limit: 30
+    t.string "tagline", limit: 30
   end
 
   create_table "posts", force: :cascade do |t|
-    t.integer "blog_id"
-    t.string "headline"
+    t.integer "blog_id", precision: 38
+    t.string "headline", limit: 30
     t.text "body_text"
   end
 

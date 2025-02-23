@@ -1,7 +1,11 @@
 development:
-  adapter: sqlite3
-  database: db/development.sqlite3
+    adapter: 'oracle_enhanced'
+    database: 'FREEPDB1'  # alias in config/tnsnames.ora
+    username: 'dev'
+    password: 'dev'
 
 test:
-  adapter: sqlite3
-  database: db/test.sqlite3
+    adapter: 'oracle_enhanced'
+    database: 'FREEPDB1'  # alias in config/tnsnames.ora
+    username: 'dev'
+    password: 'dev'
