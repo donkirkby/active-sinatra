@@ -13,4 +13,4 @@ gem 'rack', '3.1.21'
 gem 'rake', '13.2.1'
 
 gem "rackup", "~> 2.2"
-gem "puma", "~> 6.5"
+gem "puma", "~> 7.2"
