@@ -66,9 +66,9 @@ GEM
     sinatra-activerecord (2.0.28)
       activerecord (>= 4.1)
       sinatra (>= 1.0)
-    sqlite3 (2.9.5)
+    sqlite3 (2.10.2)
       mini_portile2 (~> 2.8.0)
-    sqlite3 (2.9.5-x86_64-linux-gnu)
+    sqlite3 (2.10.2-x86_64-linux-gnu)
     tilt (2.6.1)
     timeout (0.4.3)
     tzinfo (2.0.6)
@@ -88,7 +88,7 @@ DEPENDENCIES
   rake (= 13.2.1)
   sinatra (= 4.2.0)
   sinatra-activerecord (= 2.0.28)
-  sqlite3 (= 2.9.5)
+  sqlite3 (= 2.10.2)
 
 RUBY VERSION
    ruby 3.3.6p108
